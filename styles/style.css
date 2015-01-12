@@ -218,6 +218,7 @@ header nav a:hover {
 .hero-col-2 .contact-col-1 input[type="email"],
 .hero-col-2 .contact-col-1 input[type="tel"] {
 	width: 150px;
+
 }
 
 .hero-col-2 .contact textarea {
@@ -308,7 +309,7 @@ header nav a:hover {
 }
 
 
-/*---------------Products--------------*/
+/*---------------Products Page--------------*/
 
 .products-list p {
 	margin: 0;
@@ -356,7 +357,7 @@ header nav a:hover {
 }
 
 
-/*----------------About-----------------*/
+/*----------------About Page-----------------*/
 
 .about-team-list li {
 	height: 300px;
@@ -375,6 +376,15 @@ header nav a:hover {
 	width: 70%;
 	padding: 0 0 0 10px;
 }
+
+
+/*---------Contact Page-----------*/
+
+.contact-page .contact {
+	padding: 200px 0;
+	margin-top: 30px;
+}
+
 
 /*-----------Form-----------*/
 
@@ -452,7 +462,7 @@ header nav a:hover {
 .contact textarea {
 	border-radius: 8px;
 	width: 250px;
-	height: 140px;
+	height: 135px;
 	margin-bottom: 20px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
