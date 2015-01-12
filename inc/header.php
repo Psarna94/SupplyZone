@@ -6,6 +6,7 @@
 		<title><?php echo "$pageName" ; ?></title>
 		<link rel="stylesheet" type="text/css" href="styles/normalize.css">
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 		<!--Font style-->
 		<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
@@ -28,7 +29,7 @@
 				</div>
 				<div class="header-col-2">
 					<div class="search">
-						<input type = "text" name = "Search"/>
+						<input class = "search-box" type = "text" name = "Search"/>
 						<button class = "search-button" type = "Search-Button">Search</button>
 					</div>
 					<nav>

@@ -12,7 +12,7 @@
 					<li class = "icon-col-1"> 
 						<!--First Icon-->
 						
-							<img src = "img/onestop.png" /> 
+							<img class = "icons-icon" src = "img/onestop.png" /> 
 							<h3> One Stop Solution </h3>
 							<p> Lorem ipsum dolor sit amet, 
 								consectetur adipiscing elit. 
@@ -25,7 +25,7 @@
 					</li>
 					<li class = "icon-col-2"> 
 						<!--second Icon-->
-						<img src = "img/airplane.png" /> 
+						<img class = "icons-icon" src = "img/airplane.png" /> 
 						<h3> Scope Of Delivery </h3>
 						<p> Lorem ipsum dolor sit amet, 
 							consectetur adipiscing elit. 
@@ -37,7 +37,7 @@
 					</li>
 					<li class = "icon-col-3"> 
 						<!--third Icon-->
-						<img src = "img/time.png" /> 
+						<img class = "icons-icon" src = "img/time.png" /> 
 						<h3> Dependable Business</h3>
 						<p> Lorem ipsum dolor sit amet, 
 							consectetur adipiscing elit. 
@@ -59,7 +59,7 @@
 				<div class = "client-wrap">
 					<h2> Clientele </h2>
 					<ul>
-						<li class = "left"> <img src = "img/arrow-left.png"> </li>
+						<li > <img class = "left" src = "img/arrow-left.png"> </li>
 							<div class = "client-images">
 								<li  class = "f-left"> <img src = "img/client1.png"> </li>
 								<li  class = "f-left"> <img src = "img/client2.png"> </li>
