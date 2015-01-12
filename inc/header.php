@@ -36,7 +36,7 @@
 							<li> <a href = "index.php"> HOME </li> </a>
 							<li> <a href = "products.php"> PRODUCTS </li> </a>
 							<li> <a href = "about.php"> ABOUT </li></a>
-							<li> <a href = "#"> CONTACT</li></a>
+							<li> <a href = "contact.php"> CONTACT</li></a>
 						</ul>
 					</div>
 				</nav>
@@ -46,6 +46,9 @@
 		</header>
 		<!--Header Ends-->
 
+<?php 
+		if($pageName != "SupplyZone | Contact Us"){
+?>
 		<!--Hero area begins-->
 		<div class = "hero">
 			<div class = "container">
@@ -78,7 +81,7 @@
 					
 					<button type = "Read More Button"> Read More </Button>
 <?php
-					}
+					}}
 ?>
 
 				</div>

@@ -5,13 +5,13 @@
 					<div class="footer-col-1">
 						<nav>
 							<ul>
-								<li> <a href = "#"> Home </li> </a>
+								<li> <a href = "index.php"> Home </li> </a>
 								<hr>
-								<li> <a href = "#"> Products </li> </a>
+								<li> <a href = "products.php"> Products </li> </a>
 								<hr>
-								<li> <a href = "#"> About </li></a>
+								<li> <a href = "about.php"> About </li></a>
 								<hr>
-								<li> <a href = "#"> Contact</li></a>
+								<li> <a href = "contact.php"> Contact</li></a>
 
 							</ul>
 						</nav>
