@@ -84,7 +84,7 @@
 							<input type = "tel" name = "phone" id="phone" placeholder = "Phone No." maxlength="12" autocomplete="tel"/> 
 						</div></div>
 						<div class="contact-col-2">
-							<textarea name ="msg" id="msg" rows=4 column=30 placeholder="Query/feedback" maxlength="300" required="true">
+							<textarea name ="msg" id="msg" rows="4" cols="50" placeholder="Message here..." maxlength="300" required="true">
 							</textarea>
 						</div>
 						<p style="display:none;">
