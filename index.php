@@ -75,7 +75,7 @@
 		
 		<!--Contact Form Begins-->
 <?php
-		include_once 'inc/form.php';
+		include 'inc/form.php';
 ?>
 		<!--contact form ends-->
 

@@ -82,7 +82,9 @@ button, input[type="submit"] {
 	box-shadow: 0 3px 5px black;
 }
 
-.contact-col-1 input[type="text"] {
+.contact-col-1 input[type="text"],
+.contact-col-1 input[type="email"],
+.contact-col-1 input[type="tel"] {
 	border-radius: 8px;
 	width: 250px;
 	height: 30px;
@@ -263,7 +265,9 @@ header nav a:hover {
 	padding-left: 10px;
 }
 
-.hero-col-2 .contact-col-1 input[type="text"] {
+.hero-col-2 .contact-col-1 input[type="text"],
+.hero-col-2 .contact-col-1 input[type="email"],
+.hero-col-2 .contact-col-1 input[type="tel"] {
 	width: 150px;
 }
 
