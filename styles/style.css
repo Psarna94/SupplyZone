@@ -199,6 +199,11 @@ header nav a:hover {
 	border-radius: 10px;
 }
 
+.hero-col-2 .contact h2{
+	font-size: 30px;
+	padding-bottom: 1px;
+}
+
 .hero-col-2 .contact-col-1 {
 	padding-left: 5%;
 	padding-right: 10px;
@@ -381,9 +386,11 @@ header nav a:hover {
 	margin-bottom: 30px;
 }
 
-.contact h2 {
+.contact h2{
 	color: white;
-	font-family: 
+	font-family: 'Merriweather', serif;
+	font-size: 41px;
+	padding-bottom: 30px;
 }
 
 .contact-col-1 {
@@ -458,11 +465,7 @@ header nav a:hover {
 	
 }
 
-.contact h2{
-	font-family: 'Merriweather', serif;
-	font-size: 41px;
-	padding-bottom: 30px;
-}
+
 
 /*----------------Footer----------------*/
 
