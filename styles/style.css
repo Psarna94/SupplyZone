@@ -26,11 +26,22 @@ h2 {
 	color: #033a74;
 	text-align: center;
 	margin: 30px 0;
+	font-family: 'Merriweather', serif;
+	font-size: 41px;
 }
 
 h3 {
 	margin: 20 0 10px 0;
 	color: #033a74;
+	font-family: 'Merriweather', serif;
+	font-size: 22px;
+}
+
+p {
+	font-family: 'Merriweather', serif;
+	font-size: 18.01px;
+	line-height: 200%;
+	color: #b9b8b8;
 }
 
 ul input {
@@ -135,8 +146,7 @@ header nav a:hover {
 	width:100%;
 	height: 390px;
 	background: url(../img/Hero-image1.png);
-	margin-top: 20px
-	
+	margin: 20px 0;
 }
 
 
@@ -182,7 +192,8 @@ header nav a:hover {
 .hero-col-1 p{
 	font-family: 'Merriweather',serif;
 	font-size:15.01px;
-	line-height: 250%
+	line-height: 250%;
+	color: white;
 }
 
 
@@ -256,21 +267,6 @@ header nav a:hover {
 }
 
 
-
-.icon-list h3{
-	font-family: 'Merriweather', serif;
-	font-size: 22px;
-	color: #033a74
-	
-}
-
-.icon-list p{
-	font-family: 'Merriweather', serif;
-	font-size: 18.01px;
-	line-height: 200%;
-	color: #b9b8b8;
-}
-
 /*---------------Clientele----------------*/
 .clientele{
 	height:200px;
@@ -302,22 +298,26 @@ header nav a:hover {
 	padding-top: 18px;
 }
 
-.client-wrap h2{
-	font-family: 'Merriweather', serif;
-	font-size: 41px;
-	padding-bottom: 30px;
-}
-
 
 /*---------------Products Page--------------*/
 
+.products-page {
+	border-top: 1px solid #b9b8b8;
+}
+
 .products-list p {
+	margin: 0;
+	line-height: 150%;
+}
+
+.products-list h3 {
 	margin: 0;
 }
 
 .products-list li {
 	width: 48%;
-	height: 350px;
+	height: 300px;
+	margin-bottom: 40px;	
 }
 
 .products-list li:nth-child(odd) {
@@ -336,7 +336,8 @@ header nav a:hover {
 
 .product-col-1 {
 	width: 45%;
-	height: 60%;
+	height: 80%;
+	border-radius: 10px;
 	float: left;
 	box-sizing: border-box;
 }
@@ -359,8 +360,20 @@ header nav a:hover {
 
 /*----------------About Page-----------------*/
 
+.about-page-company, .about-page-team {
+	border-top: 1px solid #b9b8b8;
+}
+
+.about-page-company {
+	padding-bottom: 30px;
+}
+
 .about-team-list li {
-	height: 300px;
+	height: 400px;
+}
+
+.about-team-list li:last-child {
+	padding-bottom: 0;
 }
 
 .team-col-1 {
@@ -377,12 +390,16 @@ header nav a:hover {
 	padding: 0 0 0 10px;
 }
 
+.team-col-2 h3 {
+	margin: 0;
+}
+
 
 /*---------Contact Page-----------*/
 
 .contact-page .contact {
 	padding: 200px 0;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 
@@ -393,7 +410,7 @@ header nav a:hover {
 	width: 100%;
 	padding: 20px 0;
 	border-bottom: 1px solid  #b9b8b8;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .contact h2{
@@ -603,4 +620,6 @@ hr{
 
 .copyright-bar p {
 	margin: 0;
+	line-height: 150%;
+	color: white;
 }

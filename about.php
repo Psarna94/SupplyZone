@@ -2,27 +2,30 @@
 		$pageName = "SupplyZone | About Us";
 		require 'inc/header.php';
 ?>
+	<section class="about-page-company">
+		<div class="container">
+			<!--About company Begins-->
+			<section class="about-company">
+				<h2>About Us</h2>
+				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+					Duis sed urna a tellus mollis hendrerit. Aliquam rhoncus 
+					aliquet sapien, non pellentesque felis. 
+				</p>
+				<p>
+					Cras justo libero, v
+					iverra id odio in, vehicula ultricies massa. Curabitur diam tellus, 
+					posuere et eleifend vehicula, placerat sit amet elit. Nulla facilisi.
+					Proin pellentesque nibh in est vulputate posuere. Nulla turpis elit, 
+					tristique vel ornare vel, convallis quis augue.
+				</p>
+			</section>
+			<!--About company Ends-->
+		</div>
+	</section>
 
-	<div class="container">
-		<!--About company Begins-->
-		<section class="about-company">
-			<h2>About Us</h2>
-			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-				Duis sed urna a tellus mollis hendrerit. Aliquam rhoncus 
-				aliquet sapien, non pellentesque felis. 
-			</p>
-			<p>
-				Cras justo libero, v
-				iverra id odio in, vehicula ultricies massa. Curabitur diam tellus, 
-				posuere et eleifend vehicula, placerat sit amet elit. Nulla facilisi.
-				Proin pellentesque nibh in est vulputate posuere. Nulla turpis elit, 
-				tristique vel ornare vel, convallis quis augue.
-			</p>
-		</section>
-		<!--About company Ends-->
-
+	<section class="about-page-team">
 		<!--About team Begins-->
-		<section class="about-team">
+		<section class="about-team container">
 			<h2>The SupplyZone Team</h2>
 			<ul class="about-team-list">
 				<li>
@@ -108,7 +111,7 @@
 		</section>
 		<div style="clear:both;"></div>
 		<!--About team Ends-->
-	</div>
+	</section>
 
 <?php 
 	

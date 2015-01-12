@@ -2,7 +2,8 @@
 		$pageName = "SupplyZone | Products";
 		require 'inc/header.php';
 ?>
-
+	
+	<section class="products-page">
 	<!--Products Listing Begins-->
 	<div class="container">
 		<h2>Products</h2>
@@ -13,12 +14,12 @@
 		foreach($categories as $id => $category){
 ?>
 			<li>
-				<div class="product-col-1">
-					<img src="<?php echo $category["img"]; ?>">
+				<div class="product-col-1" style="background: url(<?php echo $category["img"]; ?>)">
+		<!--			<img src="<?php echo $category["img"]; ?>">  -->
 				</div>
 				<div class="product-col-2">
 					<h3><?php echo "<a href=\"product.php?id=$id\">$category[name]</a>"; ?></h3>
-					<p><?php echo $category["desc"] ?></p>
+					<p><?php echo $category["desc-short"] ?></p>
 				</div>
 			</li>
 <?php 	
@@ -27,7 +28,7 @@
 	<div style="clear:both;"></div>
 	</div>
 	<!--Product Listing Ends-->
-
+	</section>
 <?php 
 	
 		require 'inc/footer.php';
