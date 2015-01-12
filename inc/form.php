@@ -7,20 +7,20 @@
 			$phn = $_POST["phone"];
 
 			if(!is_numeric($phn)){
-				print 'Please review the phone number you entered. There seems to be a problem';
+				header("Location:../response.php?status=sorry");
 				exit;
 			}
 
 			$namePattern = '/^[a-z()\/\'":\*+|,.; \- !?&#$@]{2,75}$/i';
 			if (!preg_match($namePattern, $name)){
-				print 'Please review the name you entered. There seems to be a problem';
+				header("Location:../response.php?status=sorry");
 				exit;
 			}
 
 			foreach( $_POST as $value ){
  				if( stripos($value,'Content-Type:') !== FALSE ){
- 					echo "There was a problem with the values you entered";
- 					exit;
+ 					header("Location:../response.php?status=sorry");
+					exit;
  				}
   			}
 
@@ -64,16 +64,16 @@
 			    echo "Mailer Error: " . $mail->ErrorInfo;
 			    exit;
 			} else {
-				header("Location: #?status=thanks");
+				header("Location:../response.php?status=thanks");
 				exit;
 			}	*/
 
-			header("Location:./response.php?status=thanks");
+			header("Location:../response.php?status=thanks");
 			exit;
 
 		}
 ?>
-			<form method="POST" action="#">	
+			<form method="POST" action="./inc/form.php">	
 				<div class = "contact">
 					<div class = "container">
 						<h2> Get in Touch Now </h2>
