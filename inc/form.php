@@ -78,11 +78,10 @@
 					<div class = "container">
 						<h2> Get in Touch Now </h2>
 						<div class="contact-col-1">
-							<div class="c1">
 							<input type = "text" name = "name" id="name" placeholder = "Full Name*" autocomplete="name" maxlength="30" required="true"/> 
 							<input type = "email" name = "email" id="email" placeholder = "Email ID*" autocomplete="email" required="true"/> 
 							<input type = "tel" name = "phone" id="phone" placeholder = "Phone No." maxlength="12" autocomplete="tel"/> 
-						</div></div>
+						</div>
 						<div class="contact-col-2">
 							<textarea name ="msg" id="msg" rows="4" cols="50" placeholder="Message here..." maxlength="300" required="true">
 							</textarea>

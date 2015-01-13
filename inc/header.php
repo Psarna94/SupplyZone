@@ -9,6 +9,8 @@
 		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 		<link rel="stylesheet" type="text/css" href="styles/responsiveAboutContact.css">
 		<link rel="stylesheet" type="text/css" href="styles/responsiveProducts.css">
+
+		<link rel="stylesheet" type="text/css" href="styles/responsiveForm.css">
 		<!--Font style-->
 		<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
