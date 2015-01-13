@@ -18,12 +18,12 @@
 					</div>
 					<div class="footer-col-2">
 						<div class = "footer-buttons">
-							<button name = "IntoLetter"> <img class = "downimg" src="img/download.png"> <p> Introduction Letter </p> </button>
+							<button name = "IntroLetter"> <img class = "downimg" src="img/download.png"> <p> Intro Letter </p> </button>
 							<button name = "ClientList"> <img class = "downimg" src="img/download.png"> <p> Client List </p> </button>
 						</div>
 
 						
-							<ul>
+							<ul class="footer-images">
 								<li> <img class = "footer-image" src = "img/emailicon.png" />   </li>
 								<li> <img class = "footer-image" src = "img/phoneicon.png" />  </li>
 								<li> <img class = "footer-image"src = "img/addicon.png" />  </li>
@@ -33,7 +33,7 @@
 							<ul>
 								<li class = "first-contact"> jcbhatt@supplyzone.com </li>
 								<li class = "second-contact">+91-7838970330 </li>
-								<li class = "third-contact"> C-31/Y-1, MIG FLats, Dilshad Garden, Delhi-95  </li>
+								<li class = "third-contact"> C-31/Y-1, MIG Flats,<br>Dilshad Garden, Delhi-95  </li>
  
 							</ul>
 						</div>

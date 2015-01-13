@@ -1,7 +1,7 @@
 @media (max-width: 1000px){
 /*------------universal-------------*/
 	.container{
-		max-width: 80%;
+		max-width: 85%%;
 	}
 
 	/*------------header-------------*/
@@ -119,10 +119,12 @@
 
 	.ham{
 		padding-top: 5px;
+		display: visible;
 	}
 
 	.search-ham{
 		float: right;
+		display: visible;
 	}
 
 	.search{

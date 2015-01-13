@@ -73,6 +73,7 @@
 
 		}
 ?>
+		<div id="form-hero">
 			<form method="POST" action="./inc/form.php">	
 				<div class = "contact">
 					<div class = "container">
@@ -95,3 +96,4 @@
 					</div>
 				</div>	
 			</form>
+		</div>
