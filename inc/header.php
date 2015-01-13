@@ -27,8 +27,10 @@
 			<div class="blue-bar">
 				<div class = "container">
 					<div class = "ham"> <img src="img/hamburger.png"> </div>
-					<input class = "search-box" type = "text" name = "Search"/>
-					<button class = "search-button" type = "Search-Button">Search</button>
+					<div class = "search-ham">
+						<input class = "search-box" type = "text" name = "Search"/>
+						<button class = "search-button" type = "Search-Button">Search</button>
+					</div>
 				</div>
 			</div>
 			<div class = "container">

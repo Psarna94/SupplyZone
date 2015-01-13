@@ -97,9 +97,9 @@
 
 }
 
-@media (max-width:803px) {
+@media (max-width:850px) {
 	.conatiner{
-		max-width:90%;
+		max-width:95%;
 	}
 	.header-col-2 nav{
 		display: none;
@@ -117,5 +117,9 @@
 
 	.ham{
 		padding-top: 5px;
+	}
+
+	.search-ham{
+		float: right;
 	}
 }
