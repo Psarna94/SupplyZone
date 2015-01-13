@@ -24,7 +24,13 @@
 				<nav>
 					<div class = "header-nav">
 
-			<div class="blue-bar"></div>
+			<div class="blue-bar">
+				<div class = "container">
+					<div class = "ham"> <img src="img/hamburger.png"> </div>
+					<input class = "search-box" type = "text" name = "Search"/>
+					<button class = "search-button" type = "Search-Button">Search</button>
+				</div>
+			</div>
 			<div class = "container">
 				<div class="header-col-1">
 					<div class = "logo">

@@ -1,7 +1,7 @@
 @media (max-width: 1000px){
 /*------------universal-------------*/
 	.container{
-		max-width: 72.91666666%;
+		max-width: 80%;
 	}
 
 	/*------------header-------------*/
@@ -91,16 +91,31 @@
 		margin-left:3%;
 		width:23.5%;
 		height: 77px;
-		background: url("../img/client1-small.png");
+		background: url("../img/client2-small.png");
 		background-repeat: no-repeat;
 }
 
-.pos-small{
-	
 }
 
-	
-
-
-
+@media (max-width:803px) {
+	.conatiner{
+		max-width:90%;
 	}
+	.header-col-2 nav{
+		display: none;
+		font-size: 10px;
+		
+	}
+
+	.header-col-2{
+		margin-top:0px;
+	}
+
+	.blue-bar{
+		height:25px;
+	}
+
+	.ham{
+		padding-top: 5px;
+	}
+}
