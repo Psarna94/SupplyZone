@@ -140,6 +140,13 @@ header nav a:hover {
 	color: #033a74;
 }
 
+.ham{
+	display: none;
+}
+
+.search-ham{
+	display: none;
+}
 
 /*---------------Hero--------------*/
 .hero{

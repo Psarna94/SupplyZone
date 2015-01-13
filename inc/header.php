@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 		<link rel="stylesheet" type="text/css" href="styles/responsiveAboutContact.css">
 		<link rel="stylesheet" type="text/css" href="styles/responsiveProducts.css">
-		<link rel="stylesheet" type="text/css" href="styles/responsiveProducts.css">
+		<link rel="stylesheet" type="text/css" href="styles/responsiveForm.css">
 		<link rel="stylesheet" type="text/css" href="styles/responsiveFooter.css">
 		<!--Font style-->
 		<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>

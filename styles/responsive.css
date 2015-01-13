@@ -110,7 +110,9 @@
 	.header-col-2{
 		margin-top:0px;
 	}
+}
 
+@media (max-width: 760px){
 	.blue-bar{
 		height:25px;
 	}
@@ -121,5 +123,9 @@
 
 	.search-ham{
 		float: right;
+	}
+
+	.search{
+		display: none;
 	}
 }
