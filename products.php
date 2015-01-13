@@ -4,6 +4,7 @@
 ?>
 	
 	<section class="products-page">
+	<div style="clear:both;"></div>	
 	<!--Products Listing Begins-->
 	<div class="container">
 		<h2>Products</h2>

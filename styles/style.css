@@ -318,6 +318,7 @@ header nav a:hover {
 	width: 48%;
 	height: 300px;
 	margin-bottom: 40px;	
+	overflow: hidden;
 }
 
 .products-list li:nth-child(odd) {

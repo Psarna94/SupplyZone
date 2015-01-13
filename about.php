@@ -3,6 +3,7 @@
 		require 'inc/header.php';
 ?>
 	<section class="about-page-company">
+		<div style="clear:both;"></div>
 		<div class="container">
 			<!--About company Begins-->
 			<section class="about-company">
@@ -47,6 +48,7 @@
 						</p>
 					</div>
 				</li>
+				<div style="clear:both;"></div>
 
 				<li>
 					<div class="team-col-1">
@@ -67,6 +69,7 @@
 						</p>
 					</div>
 				</li>
+				<div style="clear:both;"></div>
 
 				<li>
 					<div class="team-col-1">
@@ -87,6 +90,7 @@
 						</p>
 					</div>
 				</li>
+				<div style="clear:both;"></div>
 
 				<li>
 					<div class="team-col-1">
@@ -107,6 +111,7 @@
 						</p>
 					</div>
 				</li>
+				<div style="clear:both;"></div>
 			</ul>
 		</section>
 		<div style="clear:both;"></div>

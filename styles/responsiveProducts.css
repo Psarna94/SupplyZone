@@ -1,0 +1,37 @@
+@media (max-width: 760px) {
+
+	.container{
+		max-width: 95%;
+	}
+
+	h2 {
+		font-size: 31px;
+	}
+
+	h3 {
+		font-size: 18px;
+	}
+
+	p {
+		font-size: 14.01px;
+		line-height: 150%;
+	}
+
+/*-----------------Products Listing------------*/
+
+	
+	.products-list li {
+		width: 100%;
+		height: 200px;
+	}
+
+	.product-col-1 {
+		width: 45%;
+		height: 60%;
+		border-radius: 10px;
+		float: left;
+		box-sizing: border-box;
+	}
+
+
+}
