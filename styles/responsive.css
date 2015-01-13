@@ -72,30 +72,35 @@
 	}
 
 	/*------------clientele-------------*/
-		.client-images{
+	.client-images{
 	
 	display:none;
+	}
+	
+	.client-wrap h2{
+		font-size: 30px;
+	}
+
+	.client-images-small{
+		display:inline;
+		box-sizing: border-box;
+	}
+
+	.client-images-small li{
+		float:left;
+		margin-left:3%;
+		width:23.5%;
+		height: 77px;
+		background: url("../img/client1-small.png");
+		background-repeat: no-repeat;
 }
 
-.client-images-small{
-	display: inline;
-	float:right;
-	margin-right:10%;
-
-}
-
-.small-img{
-	float:left;
-}
-
-.right{
-	float: right;
-	padding-top: 18px;
+.pos-small{
 	
 }
 
-.f-left-small{
-	float:left;
-}
+	
+
+
 
 	}

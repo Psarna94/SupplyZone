@@ -72,9 +72,11 @@
 
 				<div class = "client-images-small">
 					<ul>
-						<li  class= "small-img" class = "f-left-small"> <img src = "img/client1-small.png"> </li>
-						<li  class="small-img" class = "f-left-small"> <img src = "img/client2-small.png"> </li>
-						<li  class="small-img" class = "f-right-small"> <img src = "img/client3-small.png"> </li>
+						<li  class= "small-img" class = "f-left-small"> </li>
+						<div class = "pos-small">
+							<li  class="small-img" class = "f-left-small"></li>
+							<li  class="small-img" class = "f-right-small" </li>
+						</div>
 					</ul>
 				</div>
 			</div>
