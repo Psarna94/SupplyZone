@@ -64,9 +64,17 @@
 								<li  class = "f-left"> <img src = "img/client1.png"> </li>
 								<li  class = "f-left"> <img src = "img/client2.png"> </li>
 								<li  class = "f-right"> <img src = "img/client3.png"> </li>
-								<li  class = "f-right"> <img src = "img/client3.png"> </li>
+								<li  class = "f-right" > <img class = "last-image" src = "img/client3.png"> </li>
 							</div>
 						<li> <img class = "right" src = "img/arrow-right.png"> </li>
+					</ul>
+				</div>
+
+				<div class = "client-images-small">
+					<ul>
+						<li  class= "small-img" class = "f-left-small"> <img src = "img/client1-small.png"> </li>
+						<li  class="small-img" class = "f-left-small"> <img src = "img/client2-small.png"> </li>
+						<li  class="small-img" class = "f-right-small"> <img src = "img/client3-small.png"> </li>
 					</ul>
 				</div>
 			</div>

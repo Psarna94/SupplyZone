@@ -298,6 +298,9 @@ header nav a:hover {
 	padding-top: 18px;
 }
 
+.client-images-small{
+	display: none;
+}
 
 /*---------------Products Page--------------*/
 
@@ -370,6 +373,7 @@ header nav a:hover {
 }
 
 .about-team-list li {
+	margin-top:40px;
 	height: 400px;
 }
 

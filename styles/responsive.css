@@ -72,25 +72,30 @@
 	}
 
 	/*------------clientele-------------*/
+		.client-images{
 	
-	.f-left{
-		width:50px;
-		height:10px;
-		padding-right:60px;
-
-	}
-
-	.f-right{
-		width:50px;
-		height:20px;
-		padding-right:60px;
-	}
-
-	.right{
-		height:30px;
-	}
-
-	.left{
-		height:30px;
-	}
+	display:none;
 }
+
+.client-images-small{
+	display: inline;
+	float:right;
+	margin-right:10%;
+
+}
+
+.small-img{
+	float:left;
+}
+
+.right{
+	float: right;
+	padding-top: 18px;
+	
+}
+
+.f-left-small{
+	float:left;
+}
+
+	}
