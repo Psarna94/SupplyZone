@@ -511,7 +511,7 @@ header nav a:hover {
 /*----------------Footer----------------*/
 
 footer {
-	color: #bb8b8;
+	color: #b9b8b8;
 	position: relative;
 	padding-top: 20px;
 	margin-top: 20px;
@@ -519,18 +519,21 @@ footer {
 }
 
 footer .footer-col-1 {
+	width: 40%;
 	float: left;
 	font-weight: bold;
 	box-sizing: border-box;
-	padding-left: 20%;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	text-align: center;
+	display: inline-block;
+	padding-right: 20px;
 }
 
 footer .footer-col-2 {
+	width: 60%;
 	float: right;
 	box-sizing: border-box;
-	padding-right: 20%;
 	margin-top: 8px;
 	margin-bottom:0px;
 	height:200px;
@@ -546,7 +549,7 @@ footer .footer-col-2 {
 	-webkit-box-shadow: 0 1px 2px rgba(115,114,114,.75);
 	-moz-box-shadow: 0 1px 2px rgba(115,114,114,.75);
 	box-shadow: 0 1px 2px rgba(115,114,114,.75);
-	margin-right: 20px;
+	margin-right: 10px;
 	position: relative;
 }
 
@@ -577,7 +580,7 @@ footer .footer-col-2 {
 }
 
 .footer-col-1 li {
-	margin-bottom: 20px;
+	margin: 18px auto 10px auto;
 }
 
 .footer-col-2 li {
@@ -586,7 +589,7 @@ footer .footer-col-2 {
 	position: realtive;
 }
 
-.footer-contact{
+.footer-contact {
 	position: relative;
 	bottom:100px;
 }
@@ -594,6 +597,7 @@ footer .footer-col-2 {
 
 
 .footer-contact li{
+	width: 400px;
 	margin-right: 20px;
 	position: relative;
 	display:block;
@@ -616,8 +620,9 @@ footer .footer-col-2 {
 }
 
 
-hr{
-	margin-top: 1px;
+footer hr {
+	margin: 0.5px auto;
+	width: 100px;
 }
 
 .footer-image{
