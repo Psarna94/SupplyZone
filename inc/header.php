@@ -3,6 +3,7 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
 		<title><?php echo "$pageName" ; ?></title>
 		<link rel="stylesheet" type="text/css" href="styles/normalize.css">
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
@@ -21,15 +22,14 @@
 
 		<!--Header begins-->
 		<header>
-				<nav>
-					<div class = "header-nav">
+				<div class = "header-nav">
 
 			<div class="blue-bar">
 				<div class = "container">
 					<div class = "ham"> <img src="img/hamburger.png"> </div>
 					<div class = "search-ham">
 						<input class = "search-box" type = "text" name = "Search"/>
-						<button class = "search-button" type = "Search-Button">Search</button>
+						<button class = "search-button">Search</button>
 					</div>
 				</div>
 			</div>
@@ -42,19 +42,19 @@
 				<div class="header-col-2">
 					<div class="search">
 						<input class = "search-box" type = "text" name = "Search"/>
-						<button class = "search-button" type = "Search-Button">Search</button>
+						<button class = "search-button">Search</button>
 					</div>
 					<nav>
 						<ul>
-							<li> <a href = "index.php"> HOME </li> </a>
-							<li> <a href = "products.php"> PRODUCTS </li> </a>
-							<li> <a href = "about.php"> ABOUT </li></a>
-							<li> <a href = "contact.php"> CONTACT</li></a>
+							<li> <a href = "index.php">HOME</a></li>
+							<li> <a href = "products.php">PRODUCTS</a></li>
+							<li> <a href = "about.php">ABOUT</a></li>
+							<li> <a href = "contact.php">CONTACT</a></li>
 						</ul>
+					</nav>
 					</div>
-				</nav>
 			</div>
-					
+		</div>			
 		<div style="clear:both;"></div>
 		</header>
 		<!--Header Ends-->

@@ -5,28 +5,28 @@
 					<div class="footer-col-1">
 						<nav>
 							<ul>
-								<li> <a href = "index.php"> Home </li> </a>
+								<li> <a href = "index.php">Home</a></li>
 								<hr>
-								<li> <a href = "products.php"> Products </li> </a>
+								<li> <a href = "products.php">Products</a></li>
 								<hr>
-								<li> <a href = "about.php"> About </li></a>
+								<li> <a href = "about.php">About</a></li>
 								<hr>
-								<li> <a href = "contact.php"> Contact</li></a>
+								<li> <a href = "contact.php">Contact</a></li>
 
 							</ul>
 						</nav>
 					</div>
 					<div class="footer-col-2">
 						<div class = "footer-buttons">
-							<button name = "IntroLetter"> <img class = "downimg" src="img/download.png"> <p> Intro Letter </p> </button>
-							<button name = "ClientList"> <img class = "downimg" src="img/download.png"> <p> Client List </p> </button>
+							<button name = "IntroLetter"> <img class = "downimg" src="img/download.png">Intro Letter</button>
+							<button name = "ClientList"> <img class = "downimg" src="img/download.png">Client List</button>
 						</div>
 
 						
 							<ul class="footer-images">
 								<li> <img class = "footer-image" src = "img/emailicon.png" />   </li>
 								<li> <img class = "footer-image" src = "img/phoneicon.png" />  </li>
-								<li> <img class = "footer-image"src = "img/addicon.png" />  </li>
+								<li> <img class = "footer-image" src = "img/addicon.png" />  </li>
 							</ul>
 							
 						<div class = "footer-contact">

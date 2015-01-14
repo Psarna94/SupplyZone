@@ -60,23 +60,23 @@
 					<h2> Clientele </h2>
 					<ul>
 						<li > <img class = "left" src = "img/arrow-left.png"> </li>
-							<div class = "client-images">
+							<div class = "client-images"><ul>
 								<li  class = "f-left"> <img src = "img/client1.png"> </li>
 								<li  class = "f-left"> <img src = "img/client2.png"> </li>
 								<li  class = "f-right"> <img src = "img/client3.png"> </li>
 								<li  class = "f-right" > <img class = "last-image" src = "img/client3.png"> </li>
-							</div>
+							</ul></div>
 						<li> <img class = "right" src = "img/arrow-right.png"> </li>
 					</ul>
 				</div>
 
 				<div class = "client-images-small">
 					<ul>
-						<li  class= "small-img" class = "f-left-small"> </li>
-						<div class = "pos-small">
-							<li  class="small-img" class = "f-left-small"></li>
-							<li  class="small-img" class = "f-right-small" </li>
-						</div>
+						<li  class= "small-img f-left-small"></li>
+						<div class = "pos-small"><ul>
+							<li  class="small-img f-left-small"></li>
+							<li  class="small-img f-right-small"></li>
+						</ul></div>
 					</ul>
 				</div>
 			</div>
